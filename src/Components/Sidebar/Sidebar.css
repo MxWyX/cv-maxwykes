@@ -1,0 +1,36 @@
+.Intro {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+}
+
+.Intro h1 {
+  margin: 0.5rem 0 0 0;
+}
+
+.Intro h2 {
+  color: #7c966a;
+  margin: 0 0 0.5rem 0;
+}
+
+.Contact {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0;
+  font-weight: 700;
+}
+
+.Contact p {
+  margin: 0;
+}
+
+.Contact span {
+  font-size: smaller;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.icon {
+  margin-right: 0.5rem;
+  margin-left: 0;
+}

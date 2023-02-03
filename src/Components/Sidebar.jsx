@@ -5,7 +5,12 @@ import { Container } from "@mui/system";
 
 const Sidebar = () => {
   return (
-    <Container>
+    <Container
+      sx={{
+        backgroundColor: "primary.dark",
+        width: "20vw",
+      }}
+    >
       <Header />
       <Contact />
     </Container>

@@ -2,14 +2,15 @@ import React from "react";
 import Experience from "./Main/Experience";
 import Education from "./Main/Education";
 import Skills from "./Main/Skills";
-import { Container } from "@mui/system";
+import "./Main/Main.css";
+import { Container } from "@mui/material";
 
 const Main = () => {
   return (
-    <Container>
+    <Container sx={{ backgroundColor: "primary.main" }}>
       <Experience />
       <Education />
-      <Skills />
+      {/* <Skills /> */}
     </Container>
   );
 };
